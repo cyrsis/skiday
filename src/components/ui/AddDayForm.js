@@ -2,7 +2,8 @@ import { PropTypes } from 'react'
 import Autocomplete from './Autocomplete'
 import '../../stylesheets/AddDayForm.scss'
 
-const AddDayForm = ({ suggestions=[], onNewDay=f=>f, onChange=f=>f, onClear=f=>f, fetching=false, router}) => {
+const AddDayForm = ({suggestions = [],
+                        onNewDay = f => f, onChange = f => f, onClear = f => f, fetching = false, router}) => {
 
     let _resort, _date, _powder, _backcountry
 
